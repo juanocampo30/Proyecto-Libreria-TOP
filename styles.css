@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+}
+
+form {
+    padding-left: 10px;
+    width: 30%;
+    height: 100vh;
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: repeat(5, 10vh);
+    align-items: center;
+}
