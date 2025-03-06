@@ -16,3 +16,11 @@ form {
     grid-template-rows: repeat(5, 10vh);
     align-items: center;
 }
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(242, 181, 181);
+}
