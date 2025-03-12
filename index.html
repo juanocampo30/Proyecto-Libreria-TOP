@@ -10,36 +10,37 @@
 </head>
 
 <body>
-    <form>
-
+  
+<div id="divFormulario">
+    <button id="nuevoLibro">Nuevo libro</button>
+    <form id="formulario">
         <div>
-            <label for="titulo">Titulo del libro:</label>
-            <input type="text" id="titulo" placeholder="Titulo del libro" class="titulo">
+            <label for="titulo" class="labelTexto">Titulo del libro:</label>
+            <input type="text" id="titulo">
         </div>
         <div>
-            <label for="autor">Autor del libro:</label>
-            <input type="text" id="autor" placeholder="Autor del libro" class="autor">
+            <label for="autor" class="labelTexto">Autor del libro:</label>
+            <input type="text" id="autor">
         </div>
         <div>
-            <label for="paginas">Numero de paginas</label>
-            <input type="number" id="paginas" placeholder="Numero de paginas" class="paginas">
+            <label for="paginas" class="labelTexto">Numero de paginas:</label>
+            <input type="number"  id="paginas">
         </div>
         <div>
-            <label for="leido">Has leido el libro?</label>
-            <input type="checkbox" id="leido" class="checkbox">
+            <label for="leido">Ya lei el libro</label>
+            <input type="radio" id="leido" name="leidoOno">
         </div>
-        <button class="botonAgregar">
-            Agregar Libro
-        </button>
-
+        <div>
+            <label for="leido">No he leido el libro</label>
+            <input type="radio" id="noLeido" name="leidoOno">
+        </div>
+        <button type="button" id="agregarLibro">Agregar Libro</button>
     </form>
+</div>
 
-    <div class="display">
+<div id="display">
 
-        
-
-    </div>
-    
+</div>
 </body>
 
 </html>

@@ -3,24 +3,40 @@
     margin: 0px;
 }
 
-body {
+body{
     display: flex;
 }
 
-form {
-    padding-left: 10px;
+#divFormulario {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
     width: 30%;
     height: 100vh;
-    background-color: lightblue;
-    display: grid;
-    grid-template-rows: repeat(5, 10vh);
-    align-items: center;
+    padding: 20px;
 }
 
-.display {
+#nuevoLibro{
+    width: 50%;
+    height: 30px;
+    align-self: center;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#formulario {
+    display: none;
+}
+
+.labelTexto {
+    display: block;
+}
+
+#display{
+    background-color: lightpink;
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     height: 100vh;
-    background-color: rgb(242, 181, 181);
 }
