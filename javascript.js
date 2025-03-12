@@ -30,9 +30,7 @@ function mostrarLibrosEnDisplay () {
     Libreria.forEach(function(objeto,indice,arreglo){
         let index = indice;
         let array = arreglo;
-        let id = crypto.randomUUID();
         let nuevoDiv = document.createElement('div');
-        nuevoDiv.id = id;
         nuevoDiv.style.height = '100px';
         nuevoDiv.style.border = '1px solid black';
         let divTitulo = document.createElement('div');
